@@ -54,4 +54,6 @@ print("Precio de compra por kilo: ", preciocomprakilo(user_precio_de_compra, use
 print("Precio de compra por kilo con IVA: ", preciocomprakiloiva(user_precio_de_compra, user_unidad_precio_compra, user_moneda_precio_compra))
 print("Precio de venta por kilo: ", precioventakilo(user_precio_venta, user_unidad_precio_venta, user_moneda_precio_venta))
 print("Utilidad por kilo: ", utilidadporkilo(precioventakilo(user_precio_venta, user_unidad_precio_venta, user_moneda_precio_venta), preciocomprakilo(user_precio_de_compra, user_unidad_precio_compra, user_moneda_precio_compra)))
-print("Utilidad total: ", utilidadtotal(user_kilos, precioventakilo(user_precio_venta, user_unidad_precio_venta, user_moneda_precio_venta), preciocomprakilo(user_precio_de_compra, user_unidad_precio_compra, user_moneda_precio_compra)))
+print("Utilidad total: ", utilidadtotal(user_kilos, precioventakilo(user_precio_venta, user_unidad_precio_venta, user_moneda_precio_venta), preciocomprakilo(user_precio_de_compra, user_unidad_precio_compra, user_moneda_precio_compra))) 
+
+#comit
