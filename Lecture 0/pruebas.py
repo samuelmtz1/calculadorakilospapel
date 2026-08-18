@@ -57,3 +57,4 @@ print("Utilidad por kilo: ", utilidadporkilo(precioventakilo(user_precio_venta, 
 print("Utilidad total: ", utilidadtotal(user_kilos, precioventakilo(user_precio_venta, user_unidad_precio_venta, user_moneda_precio_venta), preciocomprakilo(user_precio_de_compra, user_unidad_precio_compra, user_moneda_precio_compra))) 
 
 #comit
+
